@@ -1,0 +1,1 @@
+read -p "Enter installation path: " install_path && cd "$install_path" && wget https://github.com/VoidCallerZ/Dashboard-Project/raw/main/Dashboard.zip && unzip Dashboard.zip && rm Dashboard.zip && chmod +x setup.sh && ./setup.sh
